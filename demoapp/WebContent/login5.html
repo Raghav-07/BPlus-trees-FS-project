@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<title>Login Page</title>
+</head>
+<body bgcolor="#116DB6">
+
+<h2 style="color:#F26600;"> ADMIN</h2>
+
+<form name="loginForm" method="post" action="trying.html">
+<table width="30%" bgcolor="#F26600" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>ADMIN LOGIN PAGE</b></font></center></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="userid"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "mano" && form.pwd.value == "mano")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+
+</body>
+</html>

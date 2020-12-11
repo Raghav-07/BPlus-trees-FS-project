@@ -1,0 +1,22 @@
+body {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Justdial_logo.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	border:2px dashed #F26600;
+	width:58%;
+	padding: 15px 15px 50px;
+
+}
+
+li {
+margin:20px 20px;
+padding-right:35px;
+float:left;
+	}
+	
+.one {
+	font-family:Comic Sans MS;
+	font-weight:bold;
+	
+}
+
